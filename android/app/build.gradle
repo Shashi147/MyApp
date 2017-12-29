@@ -126,7 +126,6 @@ android {
     }
     buildTypes {
         release {
-            buildConfigField "String", "CODEPUSH_KEY", '"c-hvmpBq7gqNotsFG8U980DJKanwH1glMK7mM"'
             minifyEnabled true
             proguardFiles getDefaultProguardFile("proguard-android.txt"), "proguard-rules.pro"
             signingConfig signingConfigs.config
